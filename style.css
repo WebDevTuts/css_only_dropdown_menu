@@ -19,3 +19,9 @@ body {
   list-style-type: none;
   padding: 0;
 }
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
