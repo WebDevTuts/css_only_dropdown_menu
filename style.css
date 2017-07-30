@@ -36,3 +36,17 @@ body {
 input#menu {
   display: none;
 }
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+/* Toggle effect */
+input:checked ~ label {
+  background: url(img/open.png) no-repeat left center;
+}
+
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
